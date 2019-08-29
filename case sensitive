@@ -3,4 +3,6 @@ def strconvert(x):
         print(x.lower())
     else:
         print(x.upper())
+        
+### use swapcase() function
     
