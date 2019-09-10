@@ -1,0 +1,25 @@
+guessno=18
+guesscases=1
+while(guesscases<=10):
+    inp=int(input("enter a number u r guessing:"))
+    if(inp>guessno):
+        print("enter a lesser number:, input number is:",inp,"you guessed",guesscases)
+        guesscases+=1
+        if guesscases==10:
+            print("game over")
+            print(guesscases)
+            break
+        
+    elif(inp<guessno):
+        print("enter a greater number:, input number is :",inp," you guessed", guesscases)
+        guesscases+=1
+        if guesscases==10:
+            print("game over",'guess case exceded to:',guesscases ,"guesscasess complteted")
+            break
+    else:
+        print("you won!")
+        print("you have  guessed in ",guesscases,"guess")
+        break
+        
+    
+    
